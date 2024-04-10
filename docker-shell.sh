@@ -7,11 +7,14 @@ docker-compose pull
 
 # Bring down Docker containers
 echo "Bringing down Docker containers..."
-docker-compose down
 # Add more commands if needed
+
+# Build Docker containers
+echo "Building Docker containers..."
+docker-compose build
 
 # Bring up Docker containers
 echo "Bringing up Docker containers..."
-
+docker-compose up -d
 # Add more commands if needed
 
