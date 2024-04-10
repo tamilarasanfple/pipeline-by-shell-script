@@ -12,6 +12,6 @@ docker-compose down
 
 # Bring up Docker containers
 echo "Bringing up Docker containers..."
-docker-compose up -d
+
 # Add more commands if needed
 
